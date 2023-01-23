@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings version="1">
+    <section id="plugin.video.zdfmagazinroyale">
+        <category id="main" label="30106">
+            <group id="1">
+                <setting id="quality" label="30007" type="integer" >
+                    <default>3</default>
+                    <constraints>
+                        <options>
+                            <option label="30023">0</option>
+                            <option label="30024">1</option>
+                            <option label="30025">2</option>
+                            <option label="30026">3</option>
+                            <option label="30028">5</option>
+                        </options>
+                    </constraints>
+                    <control type="spinner" format="integer"/>
+                </setting>
+                <setting id="page_itemCount" label="30015" type="integer">
+                    <default>20</default>
+                    <constraints>
+                        <options>
+                            <option label="30029">5</option>
+                            <option label="30030">10</option>
+                            <option label="30031">15</option>
+                            <option label="30032">20</option>
+                            <option label="30033">25</option>
+                            <option label="30034">30</option>
+                        </options>
+                    </constraints>
+                    <control type="spinner" format="integer"/>
+                </setting>
+            </group>
+        </category>
+        <category id="database" label="30017">
+            <group id="2">
+                <setting id="db_host" type="string" label="30019" help="">
+                    <default>192.168.132.1</default>
+                    <constraints>
+                        <allowempty>true</allowempty>
+                    </constraints>
+                    <control type="edit" format="ip">
+                        <heading>30019</heading>
+                    </control>
+                </setting>
+                <setting id="db_port" type="integer" label="30020" help="">
+                    <default>3306</default>
+                    <control type="edit" format="integer">
+                        <heading>30020</heading>
+                    </control>
+                </setting>
+                <setting id="db_username" type="string" label="30021" help="">
+                    <constraints>
+                        <allowempty>true</allowempty>
+                    </constraints>
+                    <control type="edit" format="string">
+                        <heading>30021</heading>
+                    </control>
+                </setting>
+                <setting id="db_password" type="string" label="30022" help="">
+                    <default/>
+                    <constraints>
+                        <allowempty>true</allowempty>
+                    </constraints>
+                    <control type="edit" format="string">
+                        <heading>30022</heading>
+                        <hidden>true</hidden>
+                    </control>
+                </setting>
+            </group>
+        </category>
+    </section>
+</settings>

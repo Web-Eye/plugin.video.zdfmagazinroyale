@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon
+    id="plugin.video.zdfmagazinroyale"
+    version="1.0.0+Beta"
+    name="ZDF Magazin Royale"
+    provider-name="WebEye">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+    <import addon="script.module.requests" version="2.12.4"/>
+    <import addon="script.module.myconnpy" version="1.1.7"/>
+  </requires>
+
+  <extension point="xbmc.python.pluginsource" library="main.py">
+    <provides>video</provides>
+  </extension>
+
+  <extension point="xbmc.addon.metadata">
+    <language>en</language>
+    <platform>all</platform>
+    <license>GPL-3.0-only</license>
+    <website>https://github.com/Web-Eye/plugin.video.zdfmagazinroyale</website>
+    <source>https://github.com/Web-Eye/plugin.video.zdfmagazinroyale</source>
+    <summary lang="de">Mediathek der bekannten ZDF Comedy/Satire-Show "ZDF Magazin Royale"</summary>
+    <summary lang="en">Broadcasts from the famous ZDF Comedy/Satire Show "ZDF Magazin Royale" (German Television)</summary>
+    <disclaimer lang="en_GB">Use at your own risk. Post suggestions, improvements or bug reports directly to GitHub.</disclaimer>
+    <disclaimer lang="de_DE">Benutzung auf eigene Gefahr. Anregungen, Verbesserungen oder Bugs bitte direkt über GitHub posten.</disclaimer>
+    <assets>
+      <icon>resources/assets/icon.jpg</icon>
+      <fanart>resources/assets/1080p/fanart.jpg</fanart>
+      <screenshot>resources/assets/screenshot_1.png</screenshot>
+      <screenshot>resources/assets/screenshot_2.png</screenshot>
+      <screenshot>resources/assets/screenshot_3.png</screenshot>
+    </assets>
+    <news>
+    </news>
+  </extension>
+
+</addon>
