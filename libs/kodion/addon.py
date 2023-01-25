@@ -30,7 +30,7 @@ class Addon(xbmcaddon.Addon):
             return xbmcaddon.Addon.getAddonInfo(self, name)
         else:
             if name == 'name':
-                return 'Hart aber Fair'
+                return 'ZDF Magazin Royale'
             elif name == 'icon':
                 return None
 
@@ -40,12 +40,9 @@ class Addon(xbmcaddon.Addon):
         else:
             return {
                 'quality': '5',
-                'suppress_signLanguage': 'true',
-                'suppress_duration': '0',
                 'page_itemCount': '20',
                 'skip_itemPage': 'true',
-                'database_enabled': 'true',
-                'db_host': 'fsnas01',
+                'db_host': 'fsnas02',
                 'db_port': '3306',
                 'db_username': 'kodi',
                 'db_password': 'kodi'

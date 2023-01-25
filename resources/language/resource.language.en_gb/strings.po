@@ -1,6 +1,6 @@
 # Kodi Media Center language file
-# Addon Name: Hart aber Fair
-# Addon id: plugin.video.hartaberfair
+# Addon Name: ZDF Magazin Royale
+# Addon id: plugin.video.zdfmagazintoyale
 # Addon Provider: WebEye
 msgid ""
 msgstr ""
