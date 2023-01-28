@@ -124,3 +124,6 @@ msgctxt "#30034"
 msgid "30"
 msgstr ""
 
+msgctxt "#30035"
+msgid "Database"
+msgstr "Datenbank"

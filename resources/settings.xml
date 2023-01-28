@@ -67,6 +67,18 @@
                         <hidden>true</hidden>
                     </control>
                 </setting>
+                <setting id="db_databasename" type="string" label="30035" help="">
+                    <dependencies>
+                        <dependency type="enable" setting="database_enabled">true</dependency>
+                    </dependencies>
+                    <default>KodiWebGrabber</default>
+                    <constraints>
+                        <allowempty>true</allowempty>
+                    </constraints>
+                    <control type="edit" format="string">
+                        <heading>30035</heading>
+                    </control>
+                </setting>
             </group>
         </category>
     </section>

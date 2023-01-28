@@ -42,8 +42,9 @@ class Addon(xbmcaddon.Addon):
                 'quality': '5',
                 'page_itemCount': '20',
                 'skip_itemPage': 'true',
-                'db_host': 'fsnas02',
+                'db_host': 'fsnas01',
                 'db_port': '3306',
                 'db_username': 'kodi',
-                'db_password': 'kodi'
+                'db_password': 'kodi',
+                'db_databasename': 'KodiWebGrabber_Test'
             }[name]
